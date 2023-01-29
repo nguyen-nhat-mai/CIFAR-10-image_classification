@@ -10,7 +10,13 @@ The mission is to build and try networks (based on popular deep learning network
 ## Pre-processing and exploration
 
 ## Modelling
+Popular networks are used:
 
+*1. VGG16*
+
+Evaluation metrics used are:
+- Accuracy score = # image correctly labeled / # image (100% means all the predicted labels are correct)
+- Cross entrophy loss = 
 ## Findings
 
 ## References
