@@ -1,4 +1,4 @@
-# CIFAR-10 image classification
+# CIFAR-10 image classification (in process)
 
 This project is a part of Deep Learning course at CentraleSupelec
 
