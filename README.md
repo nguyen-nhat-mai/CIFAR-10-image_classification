@@ -30,9 +30,14 @@ Popular networks are used:
 
 Evaluation metrics used are:
 - Accuracy score = # image correctly labeled / # image (100% means all the predicted labels are correct)
-- Cross entrophy loss = 
--
+- Cross entrophy loss (CEL) measures the difference between true distribution and predicted distribution. The closer CEL is to 0, the more accurate the model is. Example is as followed:
+
+![image](https://user-images.githubusercontent.com/85484281/215549332-c4f86e32-2861-4404-8616-f026545b52ca.png)
+
 ## Findings
+A trial on different transformation scenarios confirms that normalizing and augmenting images help improve the accuracy
+
+![image](https://user-images.githubusercontent.com/85484281/215549402-54be30f8-6ceb-442e-a8a1-c221633c0bd2.png)
 
 ## References
 https://github.com/Armour/pytorch-nn-practice/blob/master/utils/meanstd.py
