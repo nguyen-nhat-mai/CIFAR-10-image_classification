@@ -8,6 +8,11 @@ The mission is to build and try networks (based on popular deep learning network
 ![image](https://user-images.githubusercontent.com/85484281/215329375-80e3122b-967f-4f5b-a5a7-8a7625d220e1.png)
 
 ## Pre-processing and exploration
+The dataset is quite standard with balanced labels:
+
+![image](https://user-images.githubusercontent.com/85484281/215471791-abcc1671-1fdf-431f-9344-e4861137c560.png)
+
+Data are normalized and augmented before fed into the models
 
 ## Modelling
 Popular networks are used:
