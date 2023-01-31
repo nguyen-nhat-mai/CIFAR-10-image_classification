@@ -35,9 +35,14 @@ Evaluation metrics used are:
 ![image](https://user-images.githubusercontent.com/85484281/215549332-c4f86e32-2861-4404-8616-f026545b52ca.png)
 
 ## Findings
-A trial on different transformation scenarios confirms that normalizing and augmenting images help improve the accuracy
+Via trial and error, I got the following observations:
+- Normalizing and augmenting images do affect the accuracy. They help improve the accuracy in this case.
 
 ![image](https://user-images.githubusercontent.com/85484281/215549402-54be30f8-6ceb-442e-a8a1-c221633c0bd2.png)
+
+- Type of optimizer and value of learning rate are critical. Here, Adam optimizer (with L2 regularization) performs worse than Stochastic Gradient Descent (with momentum of 0.9).
+
+![image](https://user-images.githubusercontent.com/85484281/215866199-6f88f325-8946-4dd2-8cfd-81bab7346d1e.png)
 
 ## References
 https://github.com/Armour/pytorch-nn-practice/blob/master/utils/meanstd.py
