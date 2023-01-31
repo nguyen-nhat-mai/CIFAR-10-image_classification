@@ -35,7 +35,7 @@ Evaluation metrics used are:
 ![image](https://user-images.githubusercontent.com/85484281/215549332-c4f86e32-2861-4404-8616-f026545b52ca.png)
 
 ## Findings
-Via trial and error, I got the following observations:
+Via trial and error, I observes the followings:
 - Normalizing and augmenting images do affect the accuracy. They help improve the accuracy in this case.
 
 ![image](https://user-images.githubusercontent.com/85484281/215549402-54be30f8-6ceb-442e-a8a1-c221633c0bd2.png)
