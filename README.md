@@ -44,9 +44,15 @@ Via trial and error, I observe the followings:
 
 ![image](https://user-images.githubusercontent.com/85484281/215866199-6f88f325-8946-4dd2-8cfd-81bab7346d1e.png)
 
+A deep dive into how the cnn layers work in VGG16:
+
+![image](https://user-images.githubusercontent.com/85484281/216068064-0879c7df-831f-4f1c-8656-070e6e111262.png)
+
 ## References
 https://github.com/Armour/pytorch-nn-practice/blob/master/utils/meanstd.py
 
 https://blog.paperspace.com/vgg-from-scratch-pytorch/
 
 https://arxiv.org/pdf/1409.1556.pdf
+
+https://debuggercafe.com/visualizing-filters-and-feature-maps-in-convolutional-neural-networks-using-pytorch/
