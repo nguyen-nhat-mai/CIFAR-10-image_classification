@@ -8,7 +8,7 @@ The mission is to build and try networks (based on popular deep learning network
 ![image](https://user-images.githubusercontent.com/85484281/215329375-80e3122b-967f-4f5b-a5a7-8a7625d220e1.png)
 
 ## Pre-processing and exploration
-The dataset is standard with balanced labels which is good as a base to test and learn how each component affects the accuracy:
+The dataset is standard with balanced labels. This is good as a base to test and learn how each component affects the accuracy:
 
 ![image](https://user-images.githubusercontent.com/85484281/215471791-abcc1671-1fdf-431f-9344-e4861137c560.png)
 
@@ -35,7 +35,7 @@ Evaluation metrics used are:
 ![image](https://user-images.githubusercontent.com/85484281/215549332-c4f86e32-2861-4404-8616-f026545b52ca.png)
 
 ## Findings
-Via trial and error, I observes the followings:
+Via trial and error, I observe the followings:
 - Normalizing and augmenting images do affect the accuracy. They help improve the accuracy in this case.
 
 ![image](https://user-images.githubusercontent.com/85484281/215549402-54be30f8-6ceb-442e-a8a1-c221633c0bd2.png)
