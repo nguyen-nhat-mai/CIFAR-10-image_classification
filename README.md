@@ -24,7 +24,7 @@ Popular networks are used:
 
 **1. VGG16** became famous after the 2014 ImageNet Challenge. Compared to previous models, VGG16 increases the depth of the network (add more non-linearity to capture the complex relationships) and uses smaller filters (prevent overfitting). Thus, it helps improve the accuracy. This network, however, easily suffers from vanishing gradient due to its depth.
 
-![image](https://user-images.githubusercontent.com/85484281/215480905-4738d0be-8e4a-433d-a02f-147d7565b218.png)
+![image](https://user-images.githubusercontent.com/85484281/216814122-ab955b28-4381-4b5d-be78-a0e1b4fe4b30.png)
 
 **2. Resnet** being tested
 
