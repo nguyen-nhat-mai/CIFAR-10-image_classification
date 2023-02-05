@@ -1,7 +1,5 @@
 # CIFAR-10 image classification (in process)
 
-This project is a part of Deep Learning course at CentraleSupelec
-
 ## Project description
 The mission is to build and try networks (based on popular deep learning network architectures such as VGG, Resnet, ...) on [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) to predict the class of the image. It is important to understand how data pre-process, parameter changes and architecture of networks affect the performance. The popular CIFAR-10 contain 60,000 images of size 32x32. Each image belongs to 1 out of 10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, trip, truck). The evaluation metric is accuracy score. A snapshot into the data is as followed:
 
@@ -24,7 +22,11 @@ Popular networks are used:
 
 **1. VGG16** became famous after the 2014 ImageNet Challenge. Compared to previous models, VGG16 increases the depth of the network (add more non-linearity to capture the complex relationships) and uses smaller filters (prevent overfitting). Thus, it helps improve the accuracy. This network, however, easily suffers from vanishing gradient due to its depth.
 
-![image](https://user-images.githubusercontent.com/85484281/216814122-ab955b28-4381-4b5d-be78-a0e1b4fe4b30.png)
+![image](https://user-images.githubusercontent.com/85484281/216814264-bbc4fa4b-32bf-443e-8b20-b53ba13a9ca4.png)
+
+**2. VGG13** is a modified version of VGG16 to adapt to the small image size in this case (32x32). The last 3 cnn layers (3x3 conv 512) are removed and the number of nodes in fully connected (fc) layers are reduced
+
+![image](https://user-images.githubusercontent.com/85484281/216815184-1bf744ea-0492-464f-8326-f30246466b71.png)
 
 **2. Resnet** being tested
 
@@ -40,8 +42,7 @@ Via trial and error, I observe the followings:
 
 ![image](https://user-images.githubusercontent.com/85484281/215549402-54be30f8-6ceb-442e-a8a1-c221633c0bd2.png)
 
-- Type of optimizer and value of learning rate are critical. Here, Adam optimizer (with L2 regularization) performs worse than Stochastic Gradient Descent (with momentum of 0.9).
-
+- Choosing an approriate optimization method and learning rate is critical. Details are noted for each case below.
 ![image](https://user-images.githubusercontent.com/85484281/215866199-6f88f325-8946-4dd2-8cfd-81bab7346d1e.png)
 
 A deep dive into how the cnn layers work in VGG16:
