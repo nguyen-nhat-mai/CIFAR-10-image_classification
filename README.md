@@ -28,7 +28,7 @@ Popular networks are used:
 
 ![image](https://user-images.githubusercontent.com/85484281/216815184-1bf744ea-0492-464f-8326-f30246466b71.png)
 
-**2. Resnet** being tested
+**3. Resnet** being tested
 
 Evaluation metrics used are:
 - Accuracy score = # image correctly labeled / # image (100% means all the predicted labels are correct)
@@ -40,7 +40,7 @@ Evaluation metrics used are:
 Via trial and error, I observe the followings:
 - Normalizing and augmenting images do affect the accuracy. They help improve the accuracy in this case.
 
-![image](https://user-images.githubusercontent.com/85484281/215549402-54be30f8-6ceb-442e-a8a1-c221633c0bd2.png)
+![image](https://user-images.githubusercontent.com/85484281/216837953-85bafc79-c7bf-4f10-bb74-20683bfde0eb.png)
 
 - Choosing an approriate optimization method and learning rate is critical. Details are noted for each case below.
 ![image](https://user-images.githubusercontent.com/85484281/215866199-6f88f325-8946-4dd2-8cfd-81bab7346d1e.png)
