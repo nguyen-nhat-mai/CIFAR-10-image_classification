@@ -30,6 +30,10 @@ Popular networks are used:
 
 **3. Resnet** being tested
 
+A deep dive into how the cnn layers work is as followed (take VGG16 as an example)
+
+![image](https://user-images.githubusercontent.com/85484281/216068064-0879c7df-831f-4f1c-8656-070e6e111262.png)
+
 Evaluation metrics used are:
 - Accuracy score = # image correctly labeled / # image (100% means all the predicted labels are correct)
 - Cross entrophy loss (CEL) measures the difference between true distribution and predicted distribution. The closer CEL is to 0, the more accurate the model is. Example is as followed:
@@ -43,11 +47,8 @@ Via trial and error, I observe the followings:
 ![image](https://user-images.githubusercontent.com/85484281/216837953-85bafc79-c7bf-4f10-bb74-20683bfde0eb.png)
 
 - Choosing an approriate optimization method and learning rate is critical. Details are noted for each case below.
-![image](https://user-images.githubusercontent.com/85484281/215866199-6f88f325-8946-4dd2-8cfd-81bab7346d1e.png)
 
-A deep dive into how the cnn layers work in VGG16:
-
-![image](https://user-images.githubusercontent.com/85484281/216068064-0879c7df-831f-4f1c-8656-070e6e111262.png)
+![image](https://user-images.githubusercontent.com/85484281/217895840-e2a143d4-70a0-48ea-88e3-002e9d844121.png)
 
 ## References
 https://github.com/Armour/pytorch-nn-practice/blob/master/utils/meanstd.py
